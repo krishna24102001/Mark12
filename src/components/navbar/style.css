@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+h1{
+    color: var(--secondary-color);
+    margin: 1rem;
+    font-family: "Megrim", cursive;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 1rem 1.5rem;
+    color: var( --secondary-color);
+    font-size: large;
+    cursor: pointer;
+    
+}

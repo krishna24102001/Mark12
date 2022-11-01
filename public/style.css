@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Megrim", cursive;
+  }
+  
+:root{
+    --primary-color:#FF7700;
+    --secondary-color:#ffffff;
+}
+
+.heading{
+  color: black;
+  text-align: center;
+}
+button{
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  margin: 1rem auto;
+  display: block;
+}
+
+.Container{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.description {
+  border: 2px solid var(--primary-color);
+  text-align: center;
+  width: 97%;
+  padding: 0.5rem;
+  margin:  1rem 0;
+}
